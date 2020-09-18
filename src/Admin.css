@@ -1,0 +1,11 @@
+
+.admin {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin_sidebarSection {
+  max-width: 300px;
+  height: 100vh;
+  background-color: white;
+}
