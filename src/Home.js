@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import ServiceSection from "./ServiceSection";
 
 function Home() {
   return (
@@ -30,6 +31,9 @@ function Home() {
           rating={5}
         />
       </div>
+      {/* Section dịch vụ  */}
+      <ServiceSection />
+
       {/* product on Row  2*/}
       <div className="home__row">
         {/* Product id */}

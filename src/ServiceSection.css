@@ -1,0 +1,14 @@
+.serviceSection {
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+}
+
+.serviceSection__title {
+  font-weight: 400; 
+  color: #444444;
+}
+
+.serviceSection__option {
+  display: flex;
+}
